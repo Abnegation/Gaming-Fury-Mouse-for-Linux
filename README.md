@@ -1,6 +1,14 @@
 # Fury Mouse RGB
 """                         Разработал @UnionMe                               """
 
+<img width="1690" height="1381" alt="image" src="https://github.com/user-attachments/assets/8dd590ab-aeee-410c-ad02-bf73ae5882ce" />
+
+<img width="1280" height="758" alt="image" src="https://github.com/user-attachments/assets/ec495d7f-fc44-43f7-a9f4-527963c9d1e4" />
+
+
+
+
+
 Управление подсветкой мыши **E-Signal USB Gaming Mouse** (Holtek `04d9:a09f`, сенсор 3327) на Linux.
 Протокол восстановлен из официального драйвера `Fury_3327.exe`.
 
@@ -17,17 +25,7 @@
 |---|---|
 | `backend.py` | работа с мышью (USB, шифрование пакетов) + консольные команды |
 | `ui.py` | графический интерфейс |
-| `build.sh` | сборка в один исполняемый файл |
 | `icon.png` | иконка |
-
-## Установка
-
-```
-pip install PyQt6
-```
-
-Больше ничего не нужно: `backend.py` не требует ни `pyusb`, ни `libusb`.
-Для сборки `build.sh` сам доустановит `pyinstaller`.
 
 ### Доступ к устройству (один раз)
 
